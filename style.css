@@ -1,0 +1,88 @@
+html {
+  background-color: rgb(192, 192, 192);
+}
+
+header {
+  color: rgb(0, 0, 0);
+	font-family: arial;
+	text-shadow: -1px -1px 0 rgb(255,255,255), 1px -1px 0 rgb(255,255,255), -1px 1px 0 rgb(255,255,255), 1px 1px 0 rgb(255,255,255);
+}
+
+body {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+a {
+  color: black;
+}
+
+.box {
+  color: black;
+  font-size: 30px;
+	font-family: arial;
+  border: 4px solid;
+  border-radius: 8px;
+  border-color: rgb(30, 33, 36);
+  background-color:rgb(255,255,255);
+  margin-left: auto;
+  margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.boxButton {
+    width: auto;
+    height: auto;
+    background-color:white;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.boxButton:hover {
+    border: 4px solid rgb(0, 0, 0);
+    padding: 18px;
+}
+
+.boxButton:active {
+    background-color:rgb(201, 201, 201);
+}
+
+.clickableText {
+  color: rgb(25, 172, 5);
+  width: 0px;
+  cursor: pointer;
+}
+
+.clickableText:hover {
+  color:rgb(0, 209, 10);
+}
+
+.fullColumn {
+  float: center;
+  width: 100%;
+  height: 100%;
+}
+
+.leftColumn {
+  float: left;
+  text-align: left;
+  width: 49%;
+  height: 100%;
+}
+
+.rightColumn {
+  float: right;
+  text-align: right;
+  width: 49%;
+  height: 100%;
+}
