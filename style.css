@@ -1,15 +1,17 @@
 html {
-  background-color: rgb(192, 192, 192);
+    background-color: rgb(226, 226, 226);
 }
 
 header {
-  color: rgb(0, 0, 0);
-	font-family: arial;
-	text-shadow: -1px -1px 0 rgb(255,255,255), 1px -1px 0 rgb(255,255,255), -1px 1px 0 rgb(255,255,255), 1px 1px 0 rgb(255,255,255);
+    color: rgb(0, 0, 0);
+    font-family: arial;
+    text-shadow: -1px -1px 0 rgb(255,255,255), 1px -1px 0 rgb(255,255,255), -1px 1px 0 rgb(255,255,255), 1px 1px 0 rgb(255,255,255);
 }
 
 body {
     color: black;
+    margin: 0px;
+    padding: 0px;
 }
 
 p {
@@ -20,16 +22,40 @@ a {
   color: black;
 }
 
+
+.top {
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    height: 125px;
+    color: dimgrey;
+    font-family: arial;
+
+}
+
+.name {
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    text-shadow: none;
+    font-size: 220px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 375px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -3px -3px 0 rgb(0,0,0), 3px -3px 0 rgb(0,0,0), -3px 3px 0 rgb(0,0,0), 3px 3px 0 rgb(0,0,0);
+}
+
 .box {
-  color: black;
-  font-size: 30px;
-	font-family: arial;
-  border: 4px solid;
-  border-radius: 8px;
-  border-color: rgb(30, 33, 36);
-  background-color:rgb(255,255,255);
-  margin-left: auto;
-  margin-right: auto;
+    color: black;
+    font-size: 30px;
+    font-family: arial;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: rgb(30, 33, 36);
+    background-color:rgb(255,255,255);
+    margin-left: auto;
+    margin-right: auto;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 40px;
@@ -58,31 +84,30 @@ a {
 }
 
 .clickableText {
-  color: rgb(25, 172, 5);
-  width: 0px;
-  cursor: pointer;
+    color: rgb(25, 172, 5);
+    width: 0px;
+    cursor: pointer;
 }
 
 .clickableText:hover {
-  color:rgb(0, 209, 10);
+    color:rgb(0, 209, 10);
 }
 
 .fullColumn {
-  float: center;
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .leftColumn {
-  float: left;
-  text-align: left;
-  width: 49%;
-  height: 100%;
+    float: left;
+    text-align: left;
+    width: 50%;
+    height: 100%;
 }
 
 .rightColumn {
-  float: right;
-  text-align: right;
-  width: 49%;
-  height: 100%;
+    float: right;
+    text-align: right;
+    width: 50%;
+    height: 100%;
 }
