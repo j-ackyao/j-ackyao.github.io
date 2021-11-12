@@ -65,19 +65,19 @@ a.email {
     font-size: 180px;
     text-align: center;
     width: 100%;
+    font-weight: bold;
     transform: translate(0, 50%);
-    -webkit-text-stroke: 3px #000;
+    -webkit-text-stroke: 5px #000;
 }
 
 .name_desc {
     color: rgb(255, 255, 255);
     font-family: arial;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     width: 100%;
-    font-weight: bold;
     transform: translate(0, 150%);
-    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: 2px #000;
 }
 
 .box {
