@@ -1,0 +1,36 @@
+.header-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-name {
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.header-mail {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.header-iconlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
