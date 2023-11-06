@@ -1,0 +1,23 @@
+
+.intro-container {
+    position: relative;
+    height: 700px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.intro-name-container {
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
+    margin-top: 100px;
+}
+
+.intro-subtitle {
+    font-size: 30px;
+}
+
+.intro-name {
+    font-size: 100px;
+    font-weight: light;
+    color: black;
+    text-decoration: none;
+}

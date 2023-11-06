@@ -2,14 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './components/Header';
-import App from './App'
+import BigName from './components/Intro';
+import {Parallax} from '@react-spring/parallax';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Header />
+    <Parallax>
+      <Header />
+      <BigName />
+      <a style={{fontSize:'1000px',color:'white'}} href={"https://bit.ly/2005221"}>_____</a>
+    </Parallax>
   </React.StrictMode>
 );
 
