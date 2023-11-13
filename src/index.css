@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,7 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+/* for debugging */
+/* * {
+  border-style: solid;
+  border-color: rgb(200, 0, 0);
+  border-width: 0.5px;
+} */

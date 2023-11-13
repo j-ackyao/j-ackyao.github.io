@@ -13,10 +13,6 @@
     align-items: center;
 }
 
-.header-name, .header-mail {
-    font-family: 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
-}
-
 .header-name {
     font-size: 50px;
     font-weight: lighter;

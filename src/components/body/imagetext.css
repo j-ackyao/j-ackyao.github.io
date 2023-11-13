@@ -1,0 +1,28 @@
+.image-text-container {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-text-image {
+    max-height: 100%;
+    max-width: 40%;
+}
+
+.image-text-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.image-text-body {
+    font-size: 1.5vw;
+    width: 100%;
+    text-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
+}

@@ -1,0 +1,19 @@
+.projects-container, .project {
+    border-style: solid;
+    border-color: rgb(200, 0, 0);
+    border-width: 0.5px;
+}
+
+.body-subtitle.projects {
+    text-align: center;
+}
+
+.projects-container {
+    width: 100%;
+    justify-content: center;
+}
+
+.project-preview {
+    position: relative;
+    height: 1000px;
+}

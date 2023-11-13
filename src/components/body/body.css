@@ -1,0 +1,14 @@
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 20vw;
+    gap: 20vw;
+}
+
+.body-subtitle {
+    font-size: 4vw;
+    font-weight: lighter;
+}
