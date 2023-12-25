@@ -1,10 +1,12 @@
 import './intro.css';
 import {ParallaxLayer} from '@react-spring/parallax';
 
+import bgimg from '../../resources/penn.jpeg';
+
 
 const backgroundspeed = 0.25;
 const namespeed = /*-0.25*/ -0.15;
-const backgroundimagesrc = "https://t4.ftcdn.net/jpg/00/37/56/49/360_F_37564907_UF78p26mRJWYrYqJ97G2Ym5iN4IhDCMX.jpg";
+const backgroundimagesrc = bgimg;
 
 export default function BigName() {
     return (

@@ -22,7 +22,9 @@ root.render(
       <Header />
       <BigName />
       <Body />
-      <a style={{fontSize:'1000px',color:'white'}} href={"https://bit.ly/2005221"}>_____</a>
+      <br />
+      <p style={{fontSize:'50px'}}>more to come!</p>
+      {/* <a style={{fontSize:'1000px',color:'white'}} href={"https://bit.ly/2005221"}>_____</a> */}
     </Parallax>
   </React.StrictMode>
 );

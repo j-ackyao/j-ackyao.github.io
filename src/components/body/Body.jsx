@@ -1,6 +1,6 @@
 import './body.css';
 import About from './About';
-import More from './More';
+// import More from './More';
 import Work from './Work';
 import Projects from './Projects'
 

@@ -23,12 +23,13 @@
 }
 
 .intro-subtitle {
+    color: white;
     font-size: 30px;
 }
 
 .intro-name {
     font-size: 100px;
     font-weight: light;
-    color: black;
+    color: white;
     text-decoration: none;
 }
