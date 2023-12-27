@@ -14,15 +14,16 @@
 
 .projects-minitext {
     width: 100%;
-    font-size: 1vw;
+    font-size: 1.5vw;
     text-align: center;
+    font-weight: lighter;
 }
 
-.project-display {
+.project-click {
     margin: auto;
     /* display: flex;
     flex-direction: column; */
-    height: 30vw;
+    height: 25vw;
 }
 
 .project-control {

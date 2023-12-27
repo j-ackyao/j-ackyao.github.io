@@ -6,12 +6,13 @@ import {useTransition, animated} from '@react-spring/web';
 
 import tabgpt from '../../resources/tabgpt.png';
 import flappy from '../../resources/flappy.png';
+import doge from '../../resources/doge.jpeg';
 
 
 const p1 = {
     subtitle: "Object Classification",
     text: "An exploration into computer vision with object classification using convolutional neural networks.",
-    src: "https://raw.githubusercontent.com/j-ackyao/object-classification/main/md_files/object_classification_39_1.png",
+    src: doge,
     reverse: Math.random() > 0.5,
 }
 
@@ -51,20 +52,22 @@ export default function Projects() {
     return (
         <div className='projects-container'>
             <div className='body-subtitle projects'>PROJECTS</div>
-            <div className='projects-minitext'>Click below to view more</div>
             {/* <button onClick={nextVis}>{visible ? 'visible' : 'invisible'}</button> */}
-            <div className='project-display' onClick={next} >
-            {transition((style, item) => {
-                style.position = 'absolute';
-                style.transform = 'translateX(-50%)';
-                style.width = '70%';
-                return (
-                    <animated.div style={style}> 
-                        <ImageTextSized {...projectsList[item]} textsize={'1.5vw'} subtitlesize={'3vw'} imagescale={'100%'} />
-                    </animated.div>
-                );
-            })}
+            <div className='project-display'>
+                <div className='project-click' onClick={next} >
+                    {transition((style, item) => {
+                        style.position = 'absolute';
+                        style.transform = 'translateX(0)';
+                        style.width = '70%';
+                        return (
+                            <animated.div style={style}> 
+                                <ImageTextSized {...projectsList[item]} textsize={'1.5vw'} subtitlesize={'3vw'} imagescale={'100%'} />
+                            </animated.div>
+                        );
+                    })}
+                </div>
             </div>
+            <div className='projects-minitext'>Click above to view more or checkout my <a href='https://github.com/j-ackyao'>github</a>!</div>
 
         </div>
     );

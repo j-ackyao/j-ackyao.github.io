@@ -1,0 +1,16 @@
+
+.footer-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}

@@ -13,4 +13,8 @@
   border-style: solid;
   border-color: rgb(200, 0, 0);
   border-width: 0.5px;
+}
+
+* :hover {
+ border-width: 1px;
 } */

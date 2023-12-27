@@ -4,6 +4,7 @@ import './index.css';
 import Header from './components/header/Header';
 import BigName from './components/intro/Intro';
 import Body from './components/body/Body';
+import Footer from './components/footer/Footer';
 import {Parallax} from '@react-spring/parallax';
 // import reportWebVitals from './reportWebVitals';
 
@@ -22,8 +23,7 @@ root.render(
       <Header />
       <BigName />
       <Body />
-      <br />
-      <p style={{fontSize:'50px'}}>more to come!</p>
+      <Footer />
       {/* <a style={{fontSize:'1000px',color:'white'}} href={"https://bit.ly/2005221"}>_____</a> */}
     </Parallax>
   </React.StrictMode>
