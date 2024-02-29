@@ -7,8 +7,9 @@ import {useTransition, animated} from '@react-spring/web';
 import tabgpt from '../../resources/tabgpt.png';
 import flappy from '../../resources/flappy.png';
 import doge from '../../resources/doge.jpeg';
+import asl from '../../resources/asl.png';
 
-
+// reverse value assigned here to prevent glitching inconsistent, to be fixed
 const p1 = {
     subtitle: "Object Classification",
     text: "An exploration into computer vision with object classification using convolutional neural networks.",
@@ -23,7 +24,6 @@ const p2 = {
     reverse: Math.random() > 0.5,
 }
 
-
 const p3 = {
     subtitle: "KY Engine",
     text: "2D game engine with a simple entity system and axis-aligned bounding box collisions.",
@@ -31,7 +31,14 @@ const p3 = {
     reverse: Math.random() > 0.5,
 }
 
-const projectsList = [p1, p2, p3];
+const p4 = {
+    subtitle: "ASL Translate",
+    text: "Web application that translates English to ASL demonstrated by a compiled signing video.",
+    src: asl,
+    reverse: Math.random() > 0.5,
+}
+
+const projectsList = [p4, p1, p2, p3];
 
 export default function Projects() {
     const [index, setIndex] = useState(0);
@@ -67,7 +74,7 @@ export default function Projects() {
                     })}
                 </div>
             </div>
-            <div className='projects-minitext'>Click above to view more or checkout my <a href='https://github.com/j-ackyao'>github</a>!</div>
+            <div className='projects-minitext'>Click above to view more or checkout my <a href='https://github.com/j-ackyao'>github</a> to see many more!</div>
 
         </div>
     );

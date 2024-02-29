@@ -1,5 +1,5 @@
 import ImageText from './ImageText';
-import me from '../../resources/me.jpg';
+import me from '../../resources/me2.jpg';
 
 const params = {
     subtitle: "ABOUT ME",

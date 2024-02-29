@@ -26,6 +26,10 @@
     height: 25vw;
 }
 
+.project-click:hover {
+    cursor:pointer;
+}
+
 .project-control {
     height: 10px;
     width: 100%;
