@@ -1,7 +1,7 @@
 import './intro.css';
 import {ParallaxLayer} from '@react-spring/parallax';
 
-import bgimg from '../../resources/sf.jpg';
+import bgimg from '../../resources/sf2.JPG';
 
 
 const backgroundspeed = 0.25;

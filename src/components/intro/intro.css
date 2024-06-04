@@ -13,10 +13,10 @@
 }
 
 .intro-background-image {
-    width: 150vw;
+    width: 130vw;
     position: relative;
     top: 0vw;
-    left: -10vw;
+    left: 0vw;
 }
 
 .intro-name-container {

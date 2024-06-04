@@ -23,7 +23,7 @@ function Experience({company, position, dates, desc}) {
 const c = {
     company: "Code Ninjas",
     position: "Code Instructor",
-    dates: "Sep 2021 - Apr 2022",
+    dates: "Jul 2021 - Apr 2022",
     desc: "Taught JavaScript and Unity to youths ranging from ages 4 to 16 in a classroom of 20\n and guided students with patience and enthusiasm in their personal game development.",
 }
 

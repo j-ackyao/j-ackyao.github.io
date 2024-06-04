@@ -19,15 +19,14 @@
     font-weight: lighter;
 }
 
-.project-click {
+.project-container {
     margin: auto;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    width: 100%;
     height: 25vw;
-}
-
-.project-click:hover {
-    cursor:pointer;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .project-control {
@@ -38,4 +37,33 @@
 	border: none;
     outline: none;
     font-size: 5vw;
+}
+
+.project-display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-arrow {
+    font-size: 25px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    transform:scale(1,5);
+    color: dimgray;
+    user-select: none;
+
+}
+
+.project-arrow:hover {
+    cursor:pointer;
+}
+
+.project-click {
+    position: absolute;
+    width: 60%;
+}
+
+.project-click:hover {
+    cursor: pointer;
 }
