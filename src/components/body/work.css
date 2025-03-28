@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5vw;
+    gap: 0.8vw;
     width: 100%;
 
 }
@@ -45,7 +45,7 @@
 
 
 .work-experience-company {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
 }
 
 .work-experience-dates {
@@ -54,14 +54,14 @@
 }
 
 .work-experience-position {
-    font-size: 2.5vw;
+    font-size: 1.7vw;
     font-weight: lighter;
 }
 
 .work-experience-desc {
-    font-size: 1.3vw;
-    max-width: 45%;
+    font-size: 1.5vw;
+    max-width: 50%;
     text-wrap: wrap;
-    text-align: justify;
+    text-align: right;
     text-justify: inter-word;
 }

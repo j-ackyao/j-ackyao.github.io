@@ -91,7 +91,6 @@ export default function Projects() {
             <div className='project-arrow' onClick={prev}>&gt;</div>
             </div>
             <div className='projects-minitext'>Click the arrows to view more or checkout my <a href='https://github.com/j-ackyao'>github</a> to see many more!</div>
-
         </div>
     );
 }

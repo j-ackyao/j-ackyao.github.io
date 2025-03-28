@@ -20,11 +20,27 @@ function Experience({company, position, dates, desc}) {
     )
 }
 
-const c = {
+
+const rvw = {
+    company: "Rivian VW Group",
+    position: "Software Engineer Intern",
+    dates: "Jun 2025 - Present",
+    desc: "Interning on the Navigations team in Palo Alto",
+}
+
+
+const rv = {
+    company: "Rivian",
+    position: "Software Engineer Intern",
+    dates: "Sept 2024 - Apr 2025",
+    desc: "Developed with the Infotainment Applications team, maintaining the Android apps platform",
+}
+
+const cn = {
     company: "Code Ninjas",
     position: "Code Instructor",
     dates: "Jul 2021 - Apr 2022",
-    desc: "Taught JavaScript and Unity to youths ranging from ages 4 to 16 in a classroom of 20\n and guided students with patience and enthusiasm in their personal game development.",
+    desc: "Led game development curriculums in classrooms of 20 youths with JavaScript and Unity",
 }
 
 
@@ -33,7 +49,9 @@ export default function Work() {
         <div className='work-container'>
             <div className='body-subtitle work'>WORK EXPERIENCE</div>
             <div className='work-list'>
-                <Experience {...c}/>
+                <Experience {...rvw}/>
+                <Experience {...rv}/>
+                <Experience {...cn}/>
             </div>
 
         </div>
