@@ -9,6 +9,7 @@ import flappy from '../../resources/flappy.png';
 import doge from '../../resources/doge.jpeg';
 import asl from '../../resources/asl.png';
 import campus from '../../resources/campusexplorer.png'
+import subaru from '../../resources/subaru.png'
 
 // reverse value assigned here to prevent glitching inconsistent, to be fixed
 // when fixed, can be stored in json files instead
@@ -52,7 +53,15 @@ const p5 = {
     link: "https://github.com/j-ackyao/",
 }
 
-const projectsList = [p4, p5, p1, p2, p3];
+const p6 = {
+    subtitle: "Subaru ECU reader",
+    text: "Modern rendition of JDM Subaru ECU reader in Rust.",
+    src: subaru,
+    reverse: Math.random() > 0.5,
+    link: "https://github.com/j-ackyao/ssm-reader",
+}
+
+const projectsList = [p6, p4, p5, p1, p2, p3];
 
 export default function Projects() {
     const [index, setIndex] = useState(0);

@@ -1,5 +1,6 @@
 import './imagetext.css'
 
+const imageBorderRadius = 5;
 
 function image(src, scale) {
     if (scale == null) {
@@ -8,7 +9,7 @@ function image(src, scale) {
 
     return (
         <div className='image-text-image'>
-            <img style={{width:scale}} alt={src} src={src}/> 
+            <img style={{width:scale, borderRadius:imageBorderRadius}} alt={src} src={src}/> 
         </div>
     );
 }
