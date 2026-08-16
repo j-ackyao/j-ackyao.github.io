@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.82e028b6.css",
-    "main.js": "/static/js/main.ba8086d8.js",
+    "main.css": "/static/css/main.b1e90736.css",
+    "main.js": "/static/js/main.cf4a5569.js",
     "static/media/subaru.png": "/static/media/subaru.01f7a40b7bc7dda0a8c8.png",
-    "static/media/sf2.JPG": "/static/media/sf2.fba17e11ae07df6847bc.JPG",
-    "static/media/me2.jpg": "/static/media/me2.d03bb49dbc2050cab51a.jpg",
+    "static/media/duo.jpg": "/static/media/duo.a8dda952d322424ffc4a.jpg",
+    "static/media/me.jpg": "/static/media/me.e3b9703689c3a3ce5d7c.jpg",
     "static/media/flappy.png": "/static/media/flappy.027cf77656c1dbd1517d.png",
     "static/media/asl.png": "/static/media/asl.d1423c48538dd864d384.png",
+    "static/media/videoeditor.jpg": "/static/media/videoeditor.e7d4dfcdc56067b7293c.jpg",
     "static/media/tabgpt.png": "/static/media/tabgpt.b3f5c66f957962b02b87.png",
     "static/media/campusexplorer.png": "/static/media/campusexplorer.80e3f7234802e605de5a.png",
     "static/media/doge.jpeg": "/static/media/doge.d969ac752b4d106cbe2b.jpeg",
     "index.html": "/index.html",
-    "main.82e028b6.css.map": "/static/css/main.82e028b6.css.map",
-    "main.ba8086d8.js.map": "/static/js/main.ba8086d8.js.map"
+    "main.b1e90736.css.map": "/static/css/main.b1e90736.css.map",
+    "main.cf4a5569.js.map": "/static/js/main.cf4a5569.js.map"
   },
   "entrypoints": [
-    "static/css/main.82e028b6.css",
-    "static/js/main.ba8086d8.js"
+    "static/css/main.b1e90736.css",
+    "static/js/main.cf4a5569.js"
   ]
 }
