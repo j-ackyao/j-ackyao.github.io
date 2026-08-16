@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b1e90736.css",
-    "main.js": "/static/js/main.cf4a5569.js",
+    "main.js": "/static/js/main.5296d88a.js",
     "static/media/subaru.png": "/static/media/subaru.01f7a40b7bc7dda0a8c8.png",
     "static/media/duo.jpg": "/static/media/duo.a8dda952d322424ffc4a.jpg",
     "static/media/me.jpg": "/static/media/me.e3b9703689c3a3ce5d7c.jpg",
@@ -13,10 +13,10 @@
     "static/media/doge.jpeg": "/static/media/doge.d969ac752b4d106cbe2b.jpeg",
     "index.html": "/index.html",
     "main.b1e90736.css.map": "/static/css/main.b1e90736.css.map",
-    "main.cf4a5569.js.map": "/static/js/main.cf4a5569.js.map"
+    "main.5296d88a.js.map": "/static/js/main.5296d88a.js.map"
   },
   "entrypoints": [
     "static/css/main.b1e90736.css",
-    "static/js/main.cf4a5569.js"
+    "static/js/main.5296d88a.js"
   ]
 }
