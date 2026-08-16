@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 90%;
 }
 
 .body-subtitle.work {
@@ -60,7 +60,7 @@
 
 .work-experience-desc {
     font-size: 1.2vw;
-    max-width: 40%;
+    max-width: 45%;
     text-wrap: wrap;
     text-align: right;
     text-justify: inter-word;

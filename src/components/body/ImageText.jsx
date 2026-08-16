@@ -1,6 +1,6 @@
 import './imagetext.css'
 
-const imageBorderRadius = 5;
+const imageBorderRadius = 8;
 
 function image(src, scale) {
     if (scale == null) {

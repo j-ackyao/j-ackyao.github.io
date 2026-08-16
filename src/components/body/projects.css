@@ -47,8 +47,7 @@
 }
 
 .project-arrow {
-    font-size: 25px;
-    text-align: center;
+    font-size: 2vw;
     font-family:'Courier New', Courier, monospace;
     transform:scale(2.5, 5);
     color: dimgray;
