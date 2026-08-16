@@ -60,7 +60,7 @@ const p5 = {
 
 const p6 = {
     subtitle: "Subaru ECU reader",
-    text: "Modern rendition of JDM Subaru ECU reader in Rust.",
+    text: "Modern rendition of JDM Subaru ECU reader in Rust and simple HTML interface.",
     src: subaru,
     reverse: coinflip(),
     link: "https://github.com/j-ackyao/ssm-reader",
@@ -68,13 +68,13 @@ const p6 = {
 
 const p7 = {
     subtitle: "Vibecoded video editor",
-    text: "Totally AI implemented video editor, human-out-the-loop style.",
+    text: "Totally AI implemented lightweight video editor, human-out-the-loop style.",
     src: videoeditor,
     reverse: coinflip(),
     link: "https://github.com/j-ackyao/video-editor",
 }
 
-const projectsList = [p6, p7, p4, p5, p1, p2, p3];
+const projectsList = [p7, p6, p4, p5, p1, p2, p3];
 
 export default function Projects() {
     const [index, setIndex] = useState(0);
@@ -107,18 +107,18 @@ export default function Projects() {
         <div className='projects-container'>
             <div className='body-subtitle projects'>PROJECTS</div>
             <div className='project-display'>
-                <div className='project-arrow' style={{textAlign: 'right'}} onClick={prev}>&lt;</div>
+                <div className='project-arrow' onClick={prev}>&lt;</div>
                 <div className='project-container' >
                     {transition((style, item) => {
                         style.transform = 'translateX(0)';
                         return (
                             <animated.div onClick={handleProjectClick} style={{ ...style, pointerEvents: isTransitioning ? 'none' : 'auto', cursor: isTransitioning ? 'default' : 'pointer' }} className='project-click'> 
-                                <ImageTextSized {...projectsList[item]} textsize={'1.5vw'} subtitlesize={'3vw'} imagescale={'100%'} />
+                                <ImageTextSized {...projectsList[item]} textsize={'clamp(0.9rem, 0.8vw + 0.7rem, 1.8rem)'} subtitlesize={'clamp(1.4rem, 1.4vw + 1rem, 4rem)'} imagescale={'100%'} />
                             </animated.div>
                         );
                     })}
                 </div>
-                <div className='project-arrow' style={{textAlign: 'left'}} onClick={next}>&gt;</div>
+                <div className='project-arrow' onClick={next}>&gt;</div>
             </div>
             <div className='projects-minitext'>Click the arrows to view more or checkout my <a href='https://github.com/j-ackyao'>github</a> to see many more!</div>
         </div>

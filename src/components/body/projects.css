@@ -14,7 +14,7 @@
 
 .projects-minitext {
     width: 100%;
-    font-size: 1.5vw;
+    font-size: clamp(0.9rem, 0.8vw + 0.7rem, 1.7rem);
     text-align: center;
     font-weight: lighter;
 }
@@ -37,7 +37,7 @@
     background: none;
 	border: none;
     outline: none;
-    font-size: 5vw;
+    font-size: clamp(2.4rem, 3vw + 1rem, 5rem);
 }
 
 .project-display {
@@ -47,10 +47,13 @@
 }
 
 .project-arrow {
-    font-size: 2vw;
+    width:10%;
+    font-size: clamp(1.3rem, 1.1vw + 0.9rem, 2.4rem);
     font-family:'Courier New', Courier, monospace;
-    transform:scale(2.5, 5);
-    color: dimgray;
+    font-weight: lighter;
+    text-align: center;
+    transform:scale(1.5, 5);
+    color: rgb(56, 56, 56);
     user-select: none;
     z-index: 1;
 }

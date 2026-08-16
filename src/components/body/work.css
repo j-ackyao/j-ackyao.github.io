@@ -45,21 +45,21 @@
 
 
 .work-experience-company {
-    font-size: 1.8vw;
+    font-size: clamp(1.1rem, 1vw + 0.7rem, 2.2rem);
 }
 
 .work-experience-dates {
-    font-size: 1.3vw;
+    font-size: clamp(0.85rem, 0.7vw + 0.6rem, 1.6rem);
     font-weight: lighter;
 }
 
 .work-experience-position {
-    font-size: 1.5vw;
+    font-size: clamp(0.95rem, 0.8vw + 0.7rem, 1.8rem);
     font-weight: lighter;
 }
 
 .work-experience-desc {
-    font-size: 1.2vw;
+    font-size: clamp(0.85rem, 0.7vw + 0.6rem, 1.45rem);
     max-width: 45%;
     text-wrap: wrap;
     text-align: right;

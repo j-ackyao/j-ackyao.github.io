@@ -22,10 +22,9 @@
 }
 
 .image-text-body {
-    font-size: 1.5vw;
+    font-size: clamp(0.9rem, 0.8vw + 0.7rem, 1.8rem);
     width: 100%;
     text-wrap: wrap;
     text-align: justify;
     text-justify: inter-word;
-    line-height: 2.2vw;
 }
