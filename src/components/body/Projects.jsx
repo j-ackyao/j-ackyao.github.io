@@ -113,7 +113,7 @@ export default function Projects() {
                         style.transform = 'translateX(0)';
                         return (
                             <animated.div onClick={handleProjectClick} style={{ ...style, pointerEvents: isTransitioning ? 'none' : 'auto', cursor: isTransitioning ? 'default' : 'pointer' }} className='project-click'> 
-                                <ImageTextSized {...projectsList[item]} textsize={'clamp(0.9rem, 0.8vw + 0.7rem, 1.8rem)'} subtitlesize={'clamp(1.4rem, 1.4vw + 1rem, 4rem)'} imagescale={'100%'} />
+                                <ImageTextSized {...projectsList[item]} textsize={'clamp(0.7rem, 2vw, 1.6rem)'} subtitlesize={'clamp(1.0rem, 1.6vw + 1rem, 4rem)'} imagescale={'100%'} />
                             </animated.div>
                         );
                     })}
